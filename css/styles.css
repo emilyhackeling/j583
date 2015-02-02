@@ -6,7 +6,11 @@ body {
 
 
 h1 {
+<<<<<<< HEAD
     font-size: 2.2em;
+=======
+    font-size: 2em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
     color:#2394ee;
     padding-left: 10px;
 }
@@ -20,7 +24,15 @@ h3 {
 }
 
 h4 {
+<<<<<<< HEAD
     font-size: 1.8em;
+=======
+<<<<<<< HEAD
+    font-size: 1.8em;
+=======
+    font-size: 1.25em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     color: #ffffff;
     line-height: 1em;
     text-transform: uppercase;
@@ -29,6 +41,7 @@ h4 {
     
 }
 
+<<<<<<< HEAD
 a:link {
     color: inherit;
     text-decoration: none;
@@ -45,6 +58,8 @@ a:hover {
 }
 
 
+=======
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
 
 img {
     max-width: 100%; 
@@ -58,6 +73,7 @@ header {
     text-align: right;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -80,12 +96,29 @@ header {
 
 .social-stream {
     float: left;
+=======
+.container {
+
+}
+
+.social-stream {
+    float: left;
+    background-color: #208de4;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
     height: 25px;
     border: none;
     color: #ffffff;
     font-size: 14px;
     display:block;
+<<<<<<< HEAD
     padding-top: 8px;
+=======
+<<<<<<< HEAD
+    padding-top: 8px;
+=======
+    padding-top: 5px;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     padding-bottom: 15px;
     text-align: left;
     padding-left: 6em;
@@ -93,20 +126,37 @@ header {
 }
 
 .blank-top-blue {
+<<<<<<< HEAD
+=======
+    background-color: #208de4;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
     height: 25px;
     border: none;
     color: #ffffff;
     display:block;
 }
+<<<<<<< HEAD
 
 .mini-raleigh {
     height: 30px;
+<<<<<<< HEAD
+=======
+=======
+.mini-raleigh {
+    background-color: #208de4;
+    height: 25px;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     border: none;
     color: #ffffff;
     display:block;
     text-align: right;
     padding-top:8px;
     padding-bottom: 8px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
    
     
 }
@@ -144,6 +194,7 @@ header {
 
 
 /* **************************************************nav***************************************************************************/
+<<<<<<< HEAD
 .navvy {
     background-color: #134670;
 }
@@ -160,10 +211,34 @@ header {
     padding-top: 30px;
     
 
+=======
+
+
+.blank-box-nav {
+    
+}
+
+
+.nav-icons {
+    
+    border: none;
+    height: 7em;
+=======
+
+}
+
+.box-blank, .nav-icons {
+    background-color: #174973;
+    border: none;
+    height: 5em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+    border-bottom: #eeeeee 1px solid;
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 }
 
 
 
+<<<<<<< HEAD
 .mid-nav {
    margin: 0 auto;
    display: inline-block;
@@ -268,6 +343,9 @@ header {
     margin-right: 5px;
 }
 
+=======
+<<<<<<< HEAD
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 
 
 
@@ -275,13 +353,25 @@ header {
 
 .green-box {
     margin-top: .5em;
+<<<<<<< HEAD
+=======
+=======
+.green-box {
+    margin-top: 1.5em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     background-color: #33cc66;
     border-color: #33cc66;
     border-radius: .3em;
     height: 2.5em;
     color: #ffffff;
+<<<<<<< HEAD
     padding-top: 18px;
     font-size: 2.2em;
+=======
+   padding-top: 18px;
+    font-size: 2em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
     padding-right: 10px;
     padding-left: 10px;
     margin-bottom: 10px;
@@ -291,6 +381,7 @@ header {
 .search {
     background-color: #ffffff;
     border: #eeeeee 1px solid;
+<<<<<<< HEAD
     border-radius: 2px; 
     float: right;
     height:30px;
@@ -306,6 +397,17 @@ header {
     float: right;
     color: #666666;
     margin-top: 3px;
+=======
+    border-radius: 2px;
+    margin-bottom: 10px;
+    float: right;
+    height: 25px;
+}
+
+.search-box {
+    float: right;
+    color: #666666;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
 }
 
 .gray-box {
@@ -321,12 +423,15 @@ header {
 }
 
 
+<<<<<<< HEAD
 
 
 
 
 /* **************************************************announcements line***************************************************************************/
 
+=======
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
 .announcements {
     color: #fe7f13;
     font-size: 1.25em;
@@ -346,12 +451,16 @@ header {
     padding-top: 18px;
     padding-bottom: 5px;
     border: #eeeeee 1px solid;
+<<<<<<< HEAD
     border-left: none;
+=======
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
    
     
 }
 
 .arrows {
+<<<<<<< HEAD
     border-bottom: none;
     height: 50px;
     padding-bottom: 15px;
@@ -598,10 +707,50 @@ header {
     float: right;
     border: #eeeeee 1px solid;
     border-top: none;
+<<<<<<< HEAD
 
 }
 
 
+=======
+=======
+    border-bottom: 0px;
+    height: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: #eeeeee 1px solid;
+}
+
+.tasks {
+    height: 22em;
+    
+
+}
+
+
+.circle {
+    float: left;
+    margin: 5px;
+}
+
+.titles {
+    color:#2394ee; 
+}
+
+.count-box {
+    float: right;
+}
+
+.analytics {
+    height: 25em;
+    float: right;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+
+}
+
+
+<<<<<<< HEAD
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 .analytics-top-box {
     margin-left: 25px;
     
@@ -614,27 +763,57 @@ header {
     
 }
 
+<<<<<<< HEAD
 .big-graph {
     width: 100%;
     height: auto;
+=======
+.big-graph-analytics {
+    background-image: url("../project-1-photos/graph-big.png");
+    background-repeat: no-repeat;
+    width:450px;
+    height: 250px;
+    margin-left: 15px;
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     
 }
 
 
+=======
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
 .activity {
     float: left;
     font-size: 1em;
     color: black;
+<<<<<<< HEAD
     padding-left: 60px;
     margin-top: 15px;
     color: #999999;
+=======
+<<<<<<< HEAD
+    padding-left: 60px;
+    margin-top: 15px;
+    color: #999999;
+=======
+    padding-left: 30px;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     
 }
 
 .dropdown {
     float: right;
+<<<<<<< HEAD
     padding-left: 10px;
    
+=======
+<<<<<<< HEAD
+    padding-left: 10px;
+   
+=======
+    padding-left: 25px;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     
 }
 
@@ -649,6 +828,7 @@ header {
 }
 
 
+<<<<<<< HEAD
 .social-media-bar {
     text-align: center;
     padding-bottom: 20px;
@@ -693,15 +873,81 @@ header {
 .fb {
     color: #ffffff;
     background-color: #114570;
+<<<<<<< HEAD
     border-radius: 10%;
     padding-top: 5px;
     padding-bottom: 2px;
+=======
+    border-radius: 15%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     padding-left: 5px;
     padding-right: 5px;
     
    
+<<<<<<< HEAD
+=======
 }
 
+
+
+.tw {
+    color: #ffffff;
+    background-color: #2298f4;
+    border-radius: 15%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+
+
+.fo {
+    color: #ffffff;
+    background-color: #3a599b;
+    border-radius: 15%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+
+
+.goog {
+    color: #ffffff;
+    background-color: #31cc66;
+    border-radius: 15%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
+}
+
+.input[type="checkbox"] {
+    display:none;
+}
+
+.input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background-image:url("../project-1-photos/check-box.png");
+    background-repeat: no-repeat;
+ 
+}
+
+.input[type="checkbox"]:checked + label span {
+    background-image:url("../project-1-photos/check.png");
+    background-repeat: no-repeat;
+    
+}
 
 
 .tw {
@@ -856,12 +1102,30 @@ header {
 
 /********************************************* HOORAYY! CONTAct and customer BOxes!!!! **************************************************/
 
+=======
+.recommendations {
+    height: 14em;
+    float: left;
+}
+
+.tasks, .analytics, .blank-box, .contact-box, .recommendations   {
+    border: #eeeeee 1px solid;
+}
+
+.blank-box {
+    height: 10em;
+}
+
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
 .contact-box {
     height: auto;
     float: right;
     padding-right: 4em;
     padding-left: 4em;
+<<<<<<< HEAD
     border: #eeeeee 1px solid;
+=======
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
     
 }
 
@@ -873,12 +1137,30 @@ header {
 
 .contact-75 {
     line-height: 1em;
+<<<<<<< HEAD
     margin-top: 7em;
     float: left;
     text-align: center;
     border: #eeeeee 1px solid;
     margin-bottom: 2em;
     height: auto;
+=======
+<<<<<<< HEAD
+    margin-top: 7em;
+    float: left;
+    text-align: center;
+    border: #eeeeee 1px solid;
+    margin-bottom: 2em;
+    height: auto;
+=======
+    margin-top: 3em;
+    float: left;
+    text-align: center;
+    border: #eeeeee 1px solid;
+    margin-bottom: 1.5em;
+    height: 10em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     margin-right: 1em;
     padding-right: 0px;
     padding-left: 0px;
@@ -891,6 +1173,10 @@ header {
 
 .customers-17 {
     line-height: 1em;
+<<<<<<< HEAD
+    margin-top: 7em;
+=======
+<<<<<<< HEAD
     margin-top: 7em;
     text-align: center;
     float: right;
@@ -898,12 +1184,30 @@ header {
     margin-bottom: 2em;
     margin-left: 1em;
     height: auto;
+=======
+    margin-top: 3em;
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
+    text-align: center;
+    float: right;
+    border: #eeeeee 1px solid;
+    margin-bottom: 2em;
+    margin-left: 1em;
+<<<<<<< HEAD
+    height: auto;
+=======
+    height: 10em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 1em;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(179,179,179,1);
     -moz-box-shadow: 2px 2px 5px 0px rgba(179,179,179,1);
     box-shadow: 2px 2px 5px 0px rgba(179,179,179,1);
+<<<<<<< HEAD
+    position: relative;
+=======
+<<<<<<< HEAD
     position: relative;
 }
 
@@ -945,16 +1249,72 @@ header {
 
 
 
+=======
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
+}
+
+.graph {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: relative;
+
+}
+
+.green-guy {
+    background-image: url("../project-1-photos/green-avatar.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    
+}
+
+<<<<<<< HEAD
+.orange-guy {
+    background-image: url("../project-1-photos/orange-avatar.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    
+}
+
+/* ****************************************did you know box!**************************************************************************/
+
+
+
+=======
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 .around-blue-did-you {
     background-color: #ffffff;
     float: right;
     border: #eeeeee 1px solid;
+<<<<<<< HEAD
    
+=======
+<<<<<<< HEAD
+   
+=======
+    padding-top: 10px;
+    padding-bottom: 10px;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 }
 
 .blue-did-you {
     background-color: #2498f4;
     color: #ffffff;
+<<<<<<< HEAD
     border-radius: .3em;
     text-align: left;
     padding-top: 20px;
@@ -999,19 +1359,93 @@ header {
 
 .bottom-blue {
     background-color: #2498f4;
+=======
+<<<<<<< HEAD
+    border-radius: .3em;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+.dyk-left-arrow {
+    background-image: url("../project-1-photos/did-you-know-left-arrow.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    float:left;
+    display: inline-block;
+}
+
+.dyk-right-arrow {
+    background-image: url("../project-1-photos/did-you-know-right-arrow.png");
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 50px;
+    float: right;
+    display: inline-block;
+    margin-right: 0px;
+    padding-right: 5px;
+}
+
+
+.dyk-middle {
+    padding-left: 40px;
+    padding-top: 5px;
+    display: inline-block;
+    
+=======
+    border: #2498f4 1px solid;
+    border-radius: .2em;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+}
+
+.bottom-blue {
+    background-color: #2498f4;
+<<<<<<< HEAD
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     height: auto;
     padding-top: 2em;
     padding-bottom: 2em;
     padding-right: 4em;
     padding-left: 4em;
     
+<<<<<<< HEAD
+=======
+=======
+    height: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 }
 
 .ad-1, .ad-2, .ad-3 {
     background-color: #ffffff;
     border-color: #ffffff;
     border-radius: 5px;
+<<<<<<< HEAD
     height:auto;
+=======
+<<<<<<< HEAD
+    height:auto;
+=======
+    height:4em;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     -webkit-box-shadow: 1px 1px 5px 0px rgba(79,79,79,1);
     -moz-box-shadow: 1px 1px 5px 0px rgba(79,79,79,1);
     box-shadow: 1px 1px 5px 0px rgba(79,79,79,1);
@@ -1020,11 +1454,21 @@ header {
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 .ad-1 {
     background-image: url("../project-1-photos/ad-1-img.png");
     background-repeat: no-repeat;
     width: 275px;
+<<<<<<< HEAD
     height:150px;
+=======
+    height: 150px;
+    vertical-align: middle;
+    
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     
 }
 
@@ -1036,13 +1480,21 @@ header {
     height:150px;
     
     
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 
 }
 
 .ad-3 {
     background-image: url("../project-1-photos/ad-3-img.png");
     background-repeat: no-repeat;
+<<<<<<< HEAD
     width:265px;
+=======
+    width: 280px;
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
     height:150px;
     
 }
@@ -1103,7 +1555,11 @@ footer {
     vertical-align: middle;
     display: inline-block;
     text-align: center;
+<<<<<<< HEAD
    
+=======
+    padding-top:2px;
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 }
 
 .tutorials:hover {
@@ -1138,9 +1594,15 @@ footer {
 .middle-ariel-bar {
     vertical-align: middle;
     display: inline-block;
+<<<<<<< HEAD
     padding-top: 28px; 
     padding-bottom: 10px;
     
+=======
+    padding-top: 22px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 }
 
 .ariel-blue-text {
@@ -1150,6 +1612,7 @@ footer {
 
 }
 
+<<<<<<< HEAD
 .logout {
     display: inline-block;
     padding-top: 20px;
@@ -1157,10 +1620,13 @@ footer {
     padding-left: 5px;
   
 }
+=======
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 
 .logout-img {
     background-image: url("../project-1-photos/logout-img.png");
     background-repeat: no-repeat;
+<<<<<<< HEAD
     width: 35px;
     height: 35px;
     vertical-align: middle;
@@ -1193,6 +1659,36 @@ footer {
 .social-media {
     padding-top: 28px;
     
+=======
+    width: 40px;
+    height: 40px;
+    float: left;
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 22px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+.logout-text: {
+    float: right;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 22px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+=======
+
+footer {
+    background-color: #f3f3f3;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 40px;
+>>>>>>> 13283db7824833926cc4dbd821d08299febe9460
+>>>>>>> 012ff461c4654115e5cc80601ebc1f6b185c516d
 }
 
 .new-footer {
