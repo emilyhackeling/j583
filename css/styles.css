@@ -20,7 +20,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.25em;
+    font-size: 1.8em;
     color: #ffffff;
     line-height: 1em;
     text-transform: uppercase;
@@ -71,9 +71,12 @@ header {
 /* **************************************************top blue****************************************************************************/
 
 .mini {
-    background-image: url(../project-1-photos/mini-bg.png);
+    background-image: url("../project-1-photos/mini-bg.png");
+    width: auto;
+    height: 30px;
     border-bottom: 0px;
 }
+
 
 .social-stream {
     float: left;
@@ -82,7 +85,7 @@ header {
     color: #ffffff;
     font-size: 14px;
     display:block;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 15px;
     text-align: left;
     padding-left: 6em;
@@ -97,41 +100,173 @@ header {
 }
 
 .mini-raleigh {
-    height: 25px;
+    height: 30px;
     border: none;
     color: #ffffff;
     display:block;
     text-align: right;
     padding-top:8px;
     padding-bottom: 8px;
+   
     
 }
 
-    background-image: url("../project-1-photos/mini-settings-white-icon.png");
-    background-repeat: no-repeat;
+.mini-words {
+    border-right: #2396f1 solid 1px;
+    height: 15px;
+   
+}
+
+
+.mini-question-circle {
+    border-right: #2396f1 solid 1px;
+    padding-left: 30px;
     
+}
+
+.mini-settings-circle {
+    padding-left: 30px;
+    
+}
+
+
+.mini-help-white-icon {
+    width: 15px;
+    height: 15px;
+  
+}
+
+.mini-settings-white-icon {
+    width: 15px;
+    height: 15px;
+    
+}
 
 
 /* **************************************************nav***************************************************************************/
-
-
-.box-blank-left{
-    background-image: url("left-nav-fade.png");
-}
-
-.box-blank-right{
-    background-image: url("../project-1-photos/right-nav-fade.png");
+.navvy {
+    background-color: #134670;
 }
 
 
-.box-blank, .nav-icons {
-    background-color: #174973;
+
+.nav-icons {
+    background-image: url("../project-1-photos/nav-bg-big.png");
+    background-color: #134670;
+    background-repeat: no-repeat;
+    height: 115px;
     border: none;
-    height: 7em;
-    border-bottom: #eeeeee 1px solid;
+    display: inline-block;
+    padding-top: 30px;
+    
+
 }
 
 
+
+.mid-nav {
+   margin: 0 auto;
+   display: inline-block;
+   
+}
+
+.icon-1 {
+    background-image: url("../project-1-photos/green-icon-1.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+    margin-left: 30px;
+    
+}
+
+
+.icon-2 {
+    background-image: url("../project-1-photos/green-icon-2.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
+
+.icon-3 {
+    background-image: url("../project-1-photos/green-icon-3.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
+
+
+.icon-4 {
+    background-image: url("../project-1-photos/green-icon-4.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
+
+.icon-5 {
+    background-image: url("../project-1-photos/green-icon-5.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
+.icon-6 {
+    background-image: url("../project-1-photos/green-icon-6.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    
+}
+
+.icon-1:hover {
+    background-image: url("../project-1-photos/blue-icon-1.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-left: 3em;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+
+.icon-2:hover {
+    background-image: url("../project-1-photos/blue-icon-2.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
+
+.icon-3:hover {
+    background-image: url("../project-1-photos/blue-icon-3.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
+.icon-4:hover {
+    background-image: url("../project-1-photos/blue-icon-4.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
+.icon-5:hover {
+    background-image: url("../project-1-photos/blue-icon-5.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
+.icon-6:hover {
+    background-image: url("../project-1-photos/blue-icon-6.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin-right: 5px;
+}
 
 
 
@@ -139,7 +274,7 @@ header {
 /* **************************************************dashboard  box***************************************************************************/
 
 .green-box {
-    margin-top: 1.5em;
+    margin-top: .5em;
     background-color: #33cc66;
     border-color: #33cc66;
     border-radius: .3em;
@@ -227,6 +362,24 @@ header {
     border-left: none;
 }
 
+
+.arrow-1 {
+    background-image: url("../project-1-photos/announce-arrow-left.png");
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    float:left;
+    margin-left:5px;
+}
+
+.arrow-2 {
+    background-image: url("../project-1-photos/announce-arrow-right.png");
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    float: right;
+    
+}
 
 
 
@@ -371,7 +524,7 @@ header {
 
 .head {
     background-image: url("../project-1-photos/head-blue-tasks-img.png");
-    backgroung-repeat: none;
+    background-repeat: no-repeat;
     width: 20px;
     height: 20px;
     padding-right: 5px;
@@ -445,13 +598,25 @@ header {
     float: right;
     border: #eeeeee 1px solid;
     border-top: none;
-    
+
 }
 
+
+.analytics-top-box {
+    margin-left: 25px;
+    
+}
 .channels-box {
     padding-left: 30px;
     border-left: 2px solid #eeeeee;
-    height: 50px;
+    height: auto;
+    vertical-align: middle;
+    
+}
+
+.big-graph {
+    width: 100%;
+    height: auto;
     
 }
 
@@ -460,13 +625,16 @@ header {
     float: left;
     font-size: 1em;
     color: black;
-    padding-left: 30px;
+    padding-left: 60px;
+    margin-top: 15px;
+    color: #999999;
     
 }
 
 .dropdown {
     float: right;
-    padding-left: 25px;
+    padding-left: 10px;
+   
     
 }
 
@@ -483,10 +651,114 @@ header {
 
 .social-media-bar {
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px;
+    padding-top:20px;
 }
 
+
+.channels {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #999999;
+}
+
+
+.referals {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #999999;
+}
+
+
+
+
+.sm-1 {
+    text-align: center;
+}
+
+.sm-2 {
+    text-align: center;
+}
+
+.sm-3 {
+    text-align: center;
+    
+}
+
+.sm-4 {
+    text-align: center;
+    
+}
+
+.fb {
+    color: #ffffff;
+    background-color: #114570;
+    border-radius: 10%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+   
+}
+
+
+
+.tw {
+    color: #ffffff;
+    background-color: #2298f4;
+    border-radius: 10%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+
+
+.fo {
+    color: #ffffff;
+    background-color: #3a599b;
+    border-radius: 10%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+
+
+.goog {
+    color: #ffffff;
+    background-color: #31cc66;
+    border-radius: 10%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+
+.input[type="checkbox"] {
+    display:none;
+}
+
+.input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background-image:url("../project-1-photos/check-box.png");
+    background-repeat: no-repeat;
+ 
+}
+
+.input[type="checkbox"]:checked + label span {
+    background-image:url("../project-1-photos/check.png");
+    background-repeat: no-repeat;
+    
+}
 
 /***************************************************recomendations!!!! *******************************/
 
@@ -601,12 +873,12 @@ header {
 
 .contact-75 {
     line-height: 1em;
-    margin-top: 3em;
+    margin-top: 7em;
     float: left;
     text-align: center;
     border: #eeeeee 1px solid;
-    margin-bottom: 1.5em;
-    height: 10em;
+    margin-bottom: 2em;
+    height: auto;
     margin-right: 1em;
     padding-right: 0px;
     padding-left: 0px;
@@ -619,63 +891,127 @@ header {
 
 .customers-17 {
     line-height: 1em;
-    margin-top: 3em;
+    margin-top: 7em;
     text-align: center;
     float: right;
     border: #eeeeee 1px solid;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     margin-left: 1em;
-    height: 10em;
+    height: auto;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 1em;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(179,179,179,1);
     -moz-box-shadow: 2px 2px 5px 0px rgba(179,179,179,1);
     box-shadow: 2px 2px 5px 0px rgba(179,179,179,1);
+    position: relative;
 }
 
-.box-arrow {
+.graph {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: relative;
+
+}
+
+.green-guy {
+    background-image: url("../project-1-photos/green-avatar.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    margin-left: 100px;
     
 }
+
+.orange-guy {
+    background-image: url("../project-1-photos/orange-avatar.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    
+}
+
+/* ****************************************did you know box!**************************************************************************/
+
+
 
 .around-blue-did-you {
     background-color: #ffffff;
     float: right;
     border: #eeeeee 1px solid;
-    padding-top: 10px;
-    padding-bottom: 10px;
+   
 }
 
 .blue-did-you {
     background-color: #2498f4;
     color: #ffffff;
-    border: #2498f4 1px solid;
-    border-radius: .2em;
+    border-radius: .3em;
     text-align: left;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
 
 
 
+.dyk-left-arrow {
+    background-image: url("../project-1-photos/did-you-know-left-arrow.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    float:left;
+    display: inline-block;
+}
+
+.dyk-right-arrow {
+    background-image: url("../project-1-photos/did-you-know-right-arrow.png");
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 50px;
+    float: right;
+    display: inline-block;
+    margin-right: 0px;
+    padding-right: 5px;
+}
+
+
+.dyk-middle {
+    padding-left: 40px;
+    padding-top: 5px;
+    display: inline-block;
+    
+}
 
 .bottom-blue {
     background-color: #2498f4;
-    height: 6em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    padding-left: 1em;
+    height: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 4em;
+    padding-left: 4em;
+    
 }
 
 .ad-1, .ad-2, .ad-3 {
     background-color: #ffffff;
     border-color: #ffffff;
     border-radius: 5px;
-    height:4em;
+    height:auto;
     -webkit-box-shadow: 1px 1px 5px 0px rgba(79,79,79,1);
     -moz-box-shadow: 1px 1px 5px 0px rgba(79,79,79,1);
     box-shadow: 1px 1px 5px 0px rgba(79,79,79,1);
@@ -683,6 +1019,33 @@ header {
 }
 
 
+
+.ad-1 {
+    background-image: url("../project-1-photos/ad-1-img.png");
+    background-repeat: no-repeat;
+    width: 275px;
+    height:150px;
+    
+}
+
+
+.ad-2 {
+    background-image: url("../project-1-photos/ad-2-img.png");
+    background-repeat: no-repeat;
+    width: 275px;
+    height:150px;
+    
+    
+
+}
+
+.ad-3 {
+    background-image: url("../project-1-photos/ad-3-img.png");
+    background-repeat: no-repeat;
+    width:265px;
+    height:150px;
+    
+}
 
 .blank-box {
     border: #eeeeee 1px solid;
@@ -709,7 +1072,7 @@ footer {
 
 
 #first-footer-row {
-    padding-top: 20px;
+    padding-top: 28px;
     vertical-align: middle;
     padding-bottom: 10px;
 }
@@ -718,8 +1081,9 @@ footer {
     height: 20px;
     border-right: 1px solid #dddddd;
     vertical-align: middle;
-    padding-top: 2px;
+   
     text-align: center;
+    display: inline-block;
     
 }
 
@@ -730,14 +1094,16 @@ footer {
     padding-top: 2px;
     text-align: center;
     color: #cfcfcf;
+    display: inline-block;
 }
 
 .tutorials {
     height: 20px;
     border-right: 1px solid #dddddd;
     vertical-align: middle;
-    padding-top: 2px;
+    display: inline-block;
     text-align: center;
+   
 }
 
 .tutorials:hover {
@@ -747,6 +1113,7 @@ footer {
     padding-top: 2px;
     text-align: center;
     color: #cfcfcf;
+    display: inline-block;
 }
 
 .blog {
@@ -754,6 +1121,7 @@ footer {
     vertical-align: middle;
     padding-top: 2px;
     text-align: center;
+    display: inline-block;
 }
 
 .blog:hover {
@@ -762,14 +1130,17 @@ footer {
     padding-top: 2px;
     text-align: center;
     color: #cfcfcf;
+    display: inline-block;
 }
 
-#text-for-ariel-box {
-    vertical-align: middle;
-}
+
 
 .middle-ariel-bar {
     vertical-align: middle;
+    display: inline-block;
+    padding-top: 28px; 
+    padding-bottom: 10px;
+    
 }
 
 .ariel-blue-text {
@@ -779,12 +1150,63 @@ footer {
 
 }
 
-.ariel-text-footer {
+.logout {
+    display: inline-block;
+    padding-top: 20px;
+    padding-right:5px;
+    padding-left: 5px;
+  
+}
+
+.logout-img {
+    background-image: url("../project-1-photos/logout-img.png");
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    display: inline-block;
+   padding-top: 5px;
+   
+
+   
+}
+
+.logout-text {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#2498f2;
+    padding-top: 8px;
+    
+}
+
+.logout-small {
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: bold;
+    color:#2498f2;
+    padding-top: 8px;
+    
+    
+}
+
+.social-media {
+    padding-top: 28px;
+    
+}
+
+.new-footer {
+    background-image: url(../project-1-photos/footer-bg-real.png);
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 40px;
+    color: #b0b0b0;
     vertical-align: middle;
 }
 
-
-
-
+.visible-sm, .visible-xs {
+    text-align: center;
+    
+}
 
 
